@@ -9,19 +9,27 @@
   --color8:#5b4a68;
 
 }
+@media(min-width:768px){
+  #perfil{
+  margin-top: -50%;
+}
+}
+#nombre{
+  font-size: xx-large;
+}
 #navbar{
   background-color: var(--color1);
   color:white;
 }
-#perfil{
-  margin-top: -10rem;
-  margin-left: 1.5rem;
-  width: 20%;
-  height: auto;
 
-}
-#banner{
+.banner{
   width: 100%;
+}
+.even-bg{
+  background-color: var(--color4);
+}
+.uneven-bg{
+  background-color: var(--color5);
 }
 .separator{
   height: 1px;
